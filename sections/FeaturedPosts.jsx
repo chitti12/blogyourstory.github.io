@@ -24,7 +24,7 @@ const responsive = {
   },
 };
 
-const FeaturedPosts = () => {
+function FeaturedPosts() {
   const [featuredPosts, setFeaturedPosts] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
 
@@ -60,6 +60,6 @@ const FeaturedPosts = () => {
       </Carousel>
     </div>
   );
-};
+}
 
 export default FeaturedPosts;
