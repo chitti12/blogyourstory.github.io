@@ -3,7 +3,6 @@ import { GraphQLClient, gql } from 'graphql-request';
 const graphqlAPI = process.env.NEXT_PUBLIC_BLOGYOURSTORY_ENDPOINT;
 const authToken = process.env.AUTH_TOKEN;
 
-// eslint-disable-next-line consistent-return
 export default async function asynchandler(req, res) {
   const graphQLClient = new GraphQLClient(graphqlAPI, {
     headers: {

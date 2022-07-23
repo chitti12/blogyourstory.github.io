@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 export { default as PostCard } from './PostCard';
 export { default as Categories } from './Categories';
 export { default as PostWidget } from './PostWidget';
@@ -9,4 +10,4 @@ export { default as Comments } from './Comments';
 export { default as PostDetail } from './PostDetail';
 export { default as FeaturedPostCard } from './FeaturedPostCard';
 export { default as Loader } from './Loader';
-export { default as AdjacentPostCard } from './AdjecentPostCard';
+export { default as AdjacentPostCard } from './AdjacentPostCard';
